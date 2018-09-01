@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+
+
+
+        <color name="d1">#000</color>
+        <color name="d2">#000</color>
+        <color name="d3">#000</color>
+        <color name="d4">#000</color>
+
+
+        <color name="l1">#000</color>
+        <color name="l2">#000</color>
+        <color name="l3">#000</color>
+        <color name="l4">#000</color>
+
+
+        <array name="dot_active">
+            <item>d1</item>
+            <item>d2</item>
+            <item>d3</item>
+            <item>d4</item>
+        </array>
+        <array name="dot_inactive">
+            <item>l1</item>
+            <item>l2</item>
+            <item>l3</item>
+            <item>l4</item>
+        </array>
+
+
+
+</resources>

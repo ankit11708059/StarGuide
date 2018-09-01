@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:orientation="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:background="#FFEB3B"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <ImageView
+                android:id="@+id/guide"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/guide"/>
+            <TextView
+                android:textColor="#000"
+                android:background="#FF9800"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ankit Sharma"
+                android:id="@+id/ab"
+                android:layout_toRightOf="@+id/guide"
+                android:textSize="25dp"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/rate"
+                android:layout_below="@+id/rate"
+                android:background="#FF9800"
+                android:text="Price :2000"
+                android:textColor="#000"
+                android:textSize="25dp" />
+            <TextView
+                android:textColor="#000"
+                android:background="#FF9800"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating 4"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/rate"
+                android:layout_toRightOf="@+id/guide"
+                android:layout_below="@+id/ab"
+                android:textSize="25dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
